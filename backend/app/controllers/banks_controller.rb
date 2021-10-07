@@ -4,7 +4,7 @@ class BanksController < ApplicationController
 
     def index
         banks = Bank.all
-        render json: banks, include: [:funds]
+        render json: banks
     end
 
     def show 
@@ -32,6 +32,6 @@ class BanksController < ApplicationController
     end
 
     def bank_params
-        params.permit(:name, :amount)
+        params.permit(:name) #might need :amount here but not to create bank????
     end
 end
