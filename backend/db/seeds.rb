@@ -7,10 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-bank_one = Bank.create(name: 'Polly', amount: [])
-bank_two = Bank.create(name: 'Joe', amount: [])
-bank_three = Bank.create(name: 'Annie', amount: [])
-bank_four = Bank.create(name: 'Jack', amount: [])
+bank_one = Bank.create(name: 'Polly', gender: 'girl', mount: [])
+bank_two = Bank.create(name: 'Joe', gender: 'boy', amount: [])
+bank_three = Bank.create(name: 'Annie', gender: 'girl', amount: [])
+bank_four = Bank.create(name: 'Jack', gender: 'boy', amount: [])
 
 # Fund.create(dollar_amount: 0.01)
 # Fund.create(dollar_amount: 0.10)
