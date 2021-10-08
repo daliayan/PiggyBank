@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBank } from './components/CreateBank';
+
+
+let bank = createBank(manageBank);
 
 ReactDOM.render(
   <React.StrictMode>
