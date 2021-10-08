@@ -7,6 +7,14 @@ class GetFund extends Component {
             dollar_amount: '',
         };
     };
+
+    render(){
+        <div>
+            <p>
+                NEED TO GET FUNDS AMOUNT
+            </p>
+        </div>
+    }
 }
 
 export default GetFund;
